@@ -1,0 +1,15 @@
+{
+  "name":         "Regex",
+  "version":      "0.1",
+  "description":  "The Regex addon adds support for Perl regular expressions using the PCRE library by Philip Hazel.",
+  "author":       "Steve Dekorte, Daniel Rosengren",
+  "website":      "http://iolanguage.org/",
+  "readme":       "README.md",
+  "protos":       [ "Regex", "RegexMatch", "RegexMatches" ],
+  "dependencies": {
+    "libs":     ["pcre"],
+    "headers":  ["pcre.h"],
+    "protos":   [],
+    "packages": ["https://github.com/IoLanguage/Range.git"]
+  }
+}
